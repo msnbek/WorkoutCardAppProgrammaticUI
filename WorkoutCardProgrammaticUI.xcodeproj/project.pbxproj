@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED8368DF296A2474004E9F80 /* RulesVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8368DE296A2474004E9F80 /* RulesVCViewController.swift */; };
+		ED8368E1296A2C7C004E9F80 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8368E0296A2C7C004E9F80 /* Images.swift */; };
 		ED9E44A02969D0D700EEA7D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E449F2969D0D700EEA7D4 /* AppDelegate.swift */; };
 		ED9E44A22969D0D700EEA7D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E44A12969D0D700EEA7D4 /* SceneDelegate.swift */; };
 		ED9E44A92969D0DA00EEA7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9E44A82969D0DA00EEA7D4 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		ED8368DE296A2474004E9F80 /* RulesVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVCViewController.swift; sourceTree = "<group>"; };
+		ED8368E0296A2C7C004E9F80 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		ED9E449C2969D0D700EEA7D4 /* WorkoutCardProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutCardProgrammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9E449F2969D0D700EEA7D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED9E44A12969D0D700EEA7D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				ED9E44B32969D8A600EEA7D4 /* CardSelectionViewController.swift */,
 				ED8368DE296A2474004E9F80 /* RulesVCViewController.swift */,
 				ED9E44B52969EDCD00EEA7D4 /* CWButton.swift */,
+				ED8368E0296A2C7C004E9F80 /* Images.swift */,
 				ED9E44A82969D0DA00EEA7D4 /* Assets.xcassets */,
 				ED9E44AA2969D0DA00EEA7D4 /* LaunchScreen.storyboard */,
 				ED9E44AD2969D0DA00EEA7D4 /* Info.plist */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED9E44A02969D0D700EEA7D4 /* AppDelegate.swift in Sources */,
+				ED8368E1296A2C7C004E9F80 /* Images.swift in Sources */,
 				ED9E44A22969D0D700EEA7D4 /* SceneDelegate.swift in Sources */,
 				ED9E44B42969D8A600EEA7D4 /* CardSelectionViewController.swift in Sources */,
 				ED8368DF296A2474004E9F80 /* RulesVCViewController.swift in Sources */,
