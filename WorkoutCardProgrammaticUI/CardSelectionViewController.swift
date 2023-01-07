@@ -68,6 +68,7 @@ class CardSelectionViewController: UIViewController {
     
     func configureRulesButton() {
         view.addSubview(rulesButton)
+        rulesButton.addTarget(self, action: #selector(presentRules), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             rulesButton.widthAnchor.constraint(equalToConstant: 115),
@@ -75,6 +76,13 @@ class CardSelectionViewController: UIViewController {
             rulesButton.trailingAnchor.constraint(equalTo: stopButton.trailingAnchor),
             rulesButton.topAnchor.constraint(equalTo: stopButton.bottomAnchor,constant: 20)
         ])
+        
+    }
+    
+    @objc func presentRules() {
+        let rulesVC = RulesVCViewController()
+        // rulesVC.   Bu sekilde data aktarılabilir.
+        present(rulesVC, animated: true)
         
     }
 
