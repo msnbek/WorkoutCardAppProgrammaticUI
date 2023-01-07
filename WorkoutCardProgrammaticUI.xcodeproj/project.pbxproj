@@ -59,10 +59,10 @@
 				ED9E449F2969D0D700EEA7D4 /* AppDelegate.swift */,
 				ED9E44A12969D0D700EEA7D4 /* SceneDelegate.swift */,
 				ED9E44B32969D8A600EEA7D4 /* CardSelectionViewController.swift */,
+				ED9E44B52969EDCD00EEA7D4 /* CWButton.swift */,
 				ED9E44A82969D0DA00EEA7D4 /* Assets.xcassets */,
 				ED9E44AA2969D0DA00EEA7D4 /* LaunchScreen.storyboard */,
 				ED9E44AD2969D0DA00EEA7D4 /* Info.plist */,
-				ED9E44B52969EDCD00EEA7D4 /* CWButton.swift */,
 			);
 			path = WorkoutCardProgrammaticUI;
 			sourceTree = "<group>";
