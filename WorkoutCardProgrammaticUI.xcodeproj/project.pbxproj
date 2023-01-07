@@ -41,6 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED8368E2296A33FA004E9F80 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E449F2969D0D700EEA7D4 /* AppDelegate.swift */,
+				ED9E44A12969D0D700EEA7D4 /* SceneDelegate.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED8368E3296A3403004E9F80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E44B32969D8A600EEA7D4 /* CardSelectionViewController.swift */,
+				ED8368DE296A2474004E9F80 /* RulesVCViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED8368E4296A340B004E9F80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED8368E0296A2C7C004E9F80 /* Images.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED8368E5296A3415004E9F80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E44A82969D0DA00EEA7D4 /* Assets.xcassets */,
+				ED9E44B52969EDCD00EEA7D4 /* CWButton.swift */,
+				ED9E44AA2969D0DA00EEA7D4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ED9E44932969D0D700EEA7D4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +96,10 @@
 		ED9E449E2969D0D700EEA7D4 /* WorkoutCardProgrammaticUI */ = {
 			isa = PBXGroup;
 			children = (
-				ED9E449F2969D0D700EEA7D4 /* AppDelegate.swift */,
-				ED9E44A12969D0D700EEA7D4 /* SceneDelegate.swift */,
-				ED9E44B32969D8A600EEA7D4 /* CardSelectionViewController.swift */,
-				ED8368DE296A2474004E9F80 /* RulesVCViewController.swift */,
-				ED9E44B52969EDCD00EEA7D4 /* CWButton.swift */,
-				ED8368E0296A2C7C004E9F80 /* Images.swift */,
-				ED9E44A82969D0DA00EEA7D4 /* Assets.xcassets */,
-				ED9E44AA2969D0DA00EEA7D4 /* LaunchScreen.storyboard */,
+				ED8368E2296A33FA004E9F80 /* Services */,
+				ED8368E3296A3403004E9F80 /* Controllers */,
+				ED8368E4296A340B004E9F80 /* Models */,
+				ED8368E5296A3415004E9F80 /* View */,
 				ED9E44AD2969D0DA00EEA7D4 /* Info.plist */,
 			);
 			path = WorkoutCardProgrammaticUI;
